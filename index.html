@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        table {
-            border-collapse: collapse;
-            border: 1px solid black;
-        }
-
-        td, th {
-            border: 1px solid black;
-            padding: 8px;
-        }
-    </style>
-    <title>Table Example</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nested Tables Example
+  </title>
 </head>
 <body>
 
-<table>
+  <table border="1">
     <tr>
-        <td>
-            <img src="your_image_url.jpg" alt="">
-        </td>
-        <td>
-            <table>
-                <tr>
-                    <th colspan="8">Merged Columns</th>
-                </tr>
-                <tr>
-                    <td>Column 1</td>
-                    <td>Column 2</td>
-                    <td>Column 3</td>
-                    <td>Column 4</td>
-                    <td>Column 5</td>
-                    <td>Column 6</td>
-                    <td>Column 7</td>
-                    <td>Column 8</td>
-                </tr>
-                <!-- Add more rows as needed -->
-            </table>
-        </td>
+      <td rowspan="8"><img src="your_picture.jpg" alt="Your Picture"></td>
+      <td>
+        <table border="2">
+          <tr>
+            <td colspan="2">The Inquesitive Chronicle</td>
+          </tr>
+          <!-- Insert 7 rows with 2 columns -->
+          <tr>
+            <td>Students</td>
+            <td>Mark Dado Dalumay, John Mark Balasso, Patricia Valdez, Janine Lalata, Kurt Sumabat, And Krixie Agustin
+          </tr>
+          <tr>
+            <td>Adviser</td>
+            <td>Mary Jane Aragon </td>
+          </tr>
+              <tr>
+            <td>Year</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>Category </td>
+            <td>Website</td>
+          </tr>
+          <tr>
+            <td>Project Type</td>
+            <td>Student Project </td>
+          </tr>
+          <tr>
+            <td>URL:</td>
+            <td><A href="https://spup.edu.ph">https://spup.edu.ph//</A></td>
+          </tr>
+          <tr>
+            <td>Description</td>
+            <td>It is Created in Github</td>
+          </tr>
+        </table>
+      </td>
     </tr>
-</table>
+  </table>
 
 </body>
 </html>
